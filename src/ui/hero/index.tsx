@@ -170,7 +170,7 @@ function Hero() {
                    */}
                   <img
                     src={item.img}
-                    className={`w-[349px] h-[349px] object-cover transition-all duration-500 cursor-pointer`}
+                    className={`w-[349px] h-[349px] object-cover rounded-xl transition-all duration-500 cursor-pointer`}
                     loading="lazy"
                     alt=""
                   />
@@ -189,7 +189,7 @@ function Hero() {
                     textStyle="text-[10px] font-medium"
                   />
                   <div
-                    className={`flex flex-col items-start gap-y-2 absolute bottom-0 left-0 right-0 transition-all duration-300  px-3 py-3 bg-gradient-to-t from-[#271E9A] to-[#1A0ECF00] ${
+                    className={`flex flex-col items-start gap-y-2 rounded-b-xl absolute bottom-0 left-0 right-0 transition-all duration-300  px-3 py-3 bg-gradient-to-t from-[#271E9A] to-[#1A0ECF00] ${
                       activeindex !== null && showContent
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-5"
